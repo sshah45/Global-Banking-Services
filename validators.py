@@ -8,7 +8,7 @@ def login(
     accnum, password
 ) -> tuple[
     str
-]:  # Authenticate login, checks if the account exists and the password is correct
+]:  # Authentication, checks if the account exists and the password is correct
     found = False
     row = 0  # To know at which row (of the csv file) the acc_num matches.
     try:
